@@ -153,3 +153,13 @@ export default App;
 ***
 ### 리액트 프로젝트 시작
 cd *FULL_PATH*/MyApp && npx react-native run-ios
+
+***
+### 추가로 AsyncStorage 설치 및 설정
+npm install --save @react-native-community/async-storage
+
+cd ios
+
+pod install
+
+react-native link @react-native-community/async-storage /* 리액트 네이티브 버전 0.60 이후에는 라이브러리 자동연결 해당 명령 불필요 */
