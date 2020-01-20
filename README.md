@@ -163,3 +163,7 @@ cd ios
 pod install
 
 react-native link @react-native-community/async-storage /* 리액트 네이티브 버전 0.60 이후에는 라이브러리 자동연결 해당 명령 불필요 */
+
+***
+### react-navigation v3 설치
+npm install --save react-navigation@^3.0.0 react-native-gesture-handler react-native-reanimated
